@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 // Import Components...
 import FooterSection from '../../../components/landing-page1/footerSection';
-// import Blog15 from '../../../components/blogs/que-productos-financieros-de-ahorro-supervisa-la-SBS/bodyBlog/index'
+import Blog15 from '../../../components/blogs/que-productos-financieros-de-ahorro-supervisa-la-SBS/bodyBlog/'
 import logoImg from '../../../public/assets/images/logotasa.png';
 
 // Import for the custom plugins...
@@ -93,7 +93,7 @@ const Index = () => {
                 <div className="main-content">
 
                     {/* BlogSingle */}
-                    {/* <Blog15 /> */}
+                    <Blog15 />
 
                    
                 </div>
