@@ -1,0 +1,15 @@
+.caja .carta {
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    transition: all 0.25s;
+}
+
+.caja .carta:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2s);
+}
+
+svg {
+    height: auto;
+    width: auto;
+  }

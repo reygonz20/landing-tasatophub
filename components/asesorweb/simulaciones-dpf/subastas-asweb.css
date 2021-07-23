@@ -1,0 +1,17 @@
+li {
+    cursor: pointer;
+}
+
+th {
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle !important;
+}
+
+tr {
+    text-align: center;
+}
+
+td {
+    vertical-align: middle !important;
+}

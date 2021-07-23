@@ -1,0 +1,72 @@
+body {
+    font-family: "Lato", sans-serif !important;
+  }
+  
+  .main {
+    transition: margin-left .5s !important;
+    margin-left: 235px !important;
+    box-shadow: 2px 2px 5px #999 !important;
+  }
+
+  .main2 {
+    transition: margin-left .5s !important;
+    margin-left: 2px !important;
+    box-shadow: 2px 2px 5px #999 !important;
+  }
+  
+
+      nav.normal {
+        background-color: white !important;
+        left: -18em !important;
+        height: calc(100vh - 135px) !important;
+        padding-right: 1em !important;
+        padding-top: 3em !important;
+        position: fixed !important;
+        transition: all .3s !important;
+        z-index: 20 !important;
+        border: 1px solid grey !important;
+        box-shadow: 2px 2px 5px #999 !important;
+      }
+
+      nav.mostrar {
+        left: 0 !important;
+      }
+
+      .scrolldiv {
+        height: calc(100vh - 140px);
+        z-index: 10;
+      }
+
+      
+
+    /* Tamaño del scroll */
+.scrolldiv::-webkit-scrollbar {
+  width: 8px;
+  height: 0px;
+}
+
+ /* Estilos barra (thumb) de scroll */
+.scrolldiv::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.scrolldiv::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+
+.scrolldiv::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+ /* Estilos track de scroll */
+.scrolldiv::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 4px;
+}
+
+.scrolldiv::-webkit-scrollbar-track:hover, 
+.scrolldiv::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}

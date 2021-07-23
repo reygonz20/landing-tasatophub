@@ -1,0 +1,4 @@
+export const GET_USERS = 'GET_USERS'
+export const GET_PROFILE = 'GET_PROFILE'
+export const GET_SIMULACION = 'GET_SIMULACION'
+export const GET_PRODUCTO = 'GET_PRODUCTO'

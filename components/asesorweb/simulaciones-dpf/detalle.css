@@ -1,0 +1,5 @@
+textarea:focus {
+    border:1px solid;
+    border-color: #146cae;
+    outline: none;
+    }

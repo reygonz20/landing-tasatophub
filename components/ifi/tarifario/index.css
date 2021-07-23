@@ -1,0 +1,12 @@
+li {
+    cursor: pointer;
+}
+
+th {
+    text-align: center;
+    cursor: pointer;
+}
+
+tr {
+    text-align: center;
+}
