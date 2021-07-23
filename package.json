@@ -1,7 +1,7 @@
 {
   "name": "sofbox-app",
   "version": "0.1.0",
-  "engines" : {
+  "engines": {
     "node": "14.x"
   },
   "private": true,
@@ -27,9 +27,9 @@
     "lite-ready": "^1.0.4",
     "lodash": "^4.17.21",
     "magnific-popup": "^1.1.0",
-    "mdbreact": "^5.0.1",
+    "mdbreact": "^5.1.0",
     "moment": "^2.29.1",
-    "next": "9.5.2",
+    "next": "9.5.3",
     "next-compose-plugins": "^2.2.0",
     "next-images": "^1.4.1",
     "next-redux-wrapper": "^6.0.2",
